@@ -14,6 +14,7 @@
 1.  由于 GrowingPushKit.framework 依赖于埋点SDK GrowingCoreKit.framework ，因此先手动集成埋点SDK，详见iOS埋点SDK集成帮助文档 https://docs.growingio.com/docs/sdk-integration/ios-sdk-1/mai-dian-sdk-ji-cheng 
 
 2.  下载最新的 iOS SDK 包 GrowingPushKit.framework https://github.com/growingio/GrowingSDK-iOS-GrowingPushKit/tree/master/GrowingPushKit.framework ,将GrowingPushKit.framework 添加到 iOS 工程中，选项如下图所示：
+
 ![AwvlV2k9RqEHQ6IZ.png](https://uploader.shimo.im/f/AwvlV2k9RqEHQ6IZ.png!thumbnail)
 
 ### 调用方法
