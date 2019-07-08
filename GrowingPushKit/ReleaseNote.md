@@ -1,4 +1,4 @@
-## GTouch ReleaseNotes
+## GrowingPushKit ReleaseNotes
 
 ### 0.2.0
 
