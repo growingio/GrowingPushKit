@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint GrowingPushKit.podspec' to ensure this is a
+#  Be sure to run `pod spec lint GrowingPushExtensionKit.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://docs.cocoapods.org/specification.html
@@ -17,11 +17,10 @@ Pod::Spec.new do |s|
 
   s.name         = "GrowingPushKit"
   s.version      = "0.2.0"
-  s.summary      = "A short description of GrowingPushKit."
+  s.summary      = "GrowingSDK-iOS-GrowingPushKit"
 
   s.description  = <<-DESC
-                        This Pod contains GrowingIO SDK -- GrowingPushKit. For more informations, please read http://help.growingio.com/ (in Chinese).
-
+                       This Pod contains GrowingIO SDK -- GrowingPushKit. For more informations, please read http://help.growingio.com/ (in Chinese).
                    DESC
 
   s.homepage     = "https://www.growingio.com/"
@@ -42,18 +41,18 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
-                LICENSE
-            }
-  s.author             = { 'GrowingIO' => 'support@growingio.com' }
-  s.platform     = :ios
-  s.ios.deployment_target = "8.0"
+                    LICENSE
+                }
+    s.author             = { 'GrowingIO' => 'support@growingio.com' }
+    s.platform     = :ios
+    s.ios.deployment_target = "10.0"
 
-  s.source       = { :git => 'https://github.com/growingio/GrowingSDK-iOS-GrowingPushKit.git', :tag => s.version}
-  s.static_framework = true
-  s.requires_arc = true
-  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
-  s.preserve_paths = 'GrowingPushKit/ReleaseNote.md', 'GrowingPushKit/VERSION'
-  s.frameworks = 'Foundation'
-  s.vendored_frameworks = 'GrowingPushKit/*.framework'
+    s.source       = { :git => 'https://github.com/growingio/GrowingSDK-iOS-GrowingPushKit.git', :tag => s.version}
+    s.static_framework = true
+    s.requires_arc = true
+    s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
+    s.preserve_paths = 'GrowingPushKit/ReleaseNote.md', 'GrowingPushKit/VERSION'
+    s.frameworks = 'Foundation'
+    s.vendored_frameworks = 'GrowingPushKit/*.framework'
 
 end
