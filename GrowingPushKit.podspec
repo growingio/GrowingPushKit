@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "GrowingPushKit"
-  s.version      = "0.2.0"
+  s.version      = "0.2.1"
   s.summary      = "GrowingSDK-iOS-GrowingPushKit"
 
   s.description  = <<-DESC
@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   s.preserve_paths = 'GrowingPushKit/ReleaseNote.md', 'GrowingPushKit/VERSION'
 
-  s.dependency 'GrowingCoreKit', '~> 2.7.8'
+  s.dependency 'GrowingCoreKit', '>= 2.8.0'
   s.frameworks = 'Foundation'
   s.vendored_frameworks = 'GrowingPushKit/*.framework'
 
