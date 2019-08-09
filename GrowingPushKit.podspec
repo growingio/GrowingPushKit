@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "GrowingPushKit"
-  s.version      = "0.2.1"
+  s.version      = "0.3.0"
   s.summary      = "GrowingSDK-iOS-GrowingPushKit"
 
   s.description  = <<-DESC
