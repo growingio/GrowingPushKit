@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   s.preserve_paths = 'GrowingPushKit/ReleaseNote.md', 'GrowingPushKit/VERSION'
-
+  s.resources = 'GrowingPushKit/GrowingTouchUI/GrowingTouchErrorBundle.bundle'
   s.dependency 'GrowingCoreKit', '>= 2.8.0'
   s.frameworks = 'Foundation'
   s.vendored_frameworks = 'GrowingPushKit/*.framework'
