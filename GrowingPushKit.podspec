@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "GrowingPushKit"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "GrowingSDK-iOS-GrowingPushKit"
 
   s.description  = <<-DESC
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://www.growingio.com/"
   s.license = { type: 'MIT', text: <<-LICENSE
-  Copyright (c) 2015-2018 GrowingIO <support@growingio.com>
+  Copyright (c) 2015-2019 GrowingIO <support@growingio.com>
   Permission is hereby granted, free of charge, to any person obtaining a copy
   of this software and associated documentation files (the "Software"), to deal
   in the Software without restriction, including without limitation the rights
@@ -46,7 +46,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-lObjC' }
   s.preserve_paths = 'GrowingPushKit/ReleaseNote.md', 'GrowingPushKit/VERSION'
   s.resources = 'GrowingPushKit/GrowingTouchUI/GrowingTouchErrorBundle.bundle'
-  s.dependency 'GrowingCoreKit', '>= 2.8.0'
+  s.dependency 'GrowingCoreKit', '>= 2.8.5'
   s.frameworks = 'Foundation'
   s.vendored_frameworks = 'GrowingPushKit/*.framework'
 
