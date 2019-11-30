@@ -1,5 +1,7 @@
 # GrowingSDK-iOS-GrowingPushKit
 
+此仓库停止维护，请移步仓库https://github.com/growingio/GrowingSDK-iOS-GrowingTouchCoreKit 最新SDK更新日志查看 https://docs.growingio.com/mp/developers/integrations/changelog
+
 依赖于埋点SDK GrowingCoreKit.framework，集成在App中，进行推送SDK的初始化以及通知的前台到达与点击统计，最低兼容iOS 8系统版本
 
 ## 集成方式
